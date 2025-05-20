@@ -1,0 +1,36 @@
+.slider {
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.slider-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #444;
+}
+
+.nav-btn:hover {
+  color: #000;
+}
+
+.nav-btn:first-of-type {
+  left: 10px;
+}
+
+.nav-btn:last-of-type {
+  right: 10px;
+}
